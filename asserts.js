@@ -1,4 +1,4 @@
-const {Test} = require('tap');
+const Test = require('tap/lib/test');
 
 function fancyAssert() {
 	return true;
