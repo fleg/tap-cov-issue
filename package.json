@@ -1,0 +1,12 @@
+{
+  "name": "tap-cov-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js --node-arg -r --node-arg ./asserts.js",
+    "coverage": "tap test.js --coverage --node-arg -r --node-arg ./asserts.js"
+  },
+  "devDependencies": {
+    "tap": "12.0.1"
+  }
+}
