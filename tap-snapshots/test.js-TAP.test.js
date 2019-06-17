@@ -5,11 +5,19 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test.js TAP lib test > match snapshot 1`] = `
-
-	Lorem ipsum dolor sit amet,
-	consectetur adipiscing elit,
-	sed do eiusmod tempor incididunt ut
-	labore et dolore magna aliqua.
-
+exports[`test.js TAP lib test > match snapshot with pretty-format 1`] = `
+Object {
+  "a": 1,
+  "b": Array [
+    1,
+    2,
+    3,
+  ],
+  "c": "
+		Lorem ipsum dolor sit amet,
+		consectetur adipiscing elit,
+		sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua.
+	",
+}
 `
