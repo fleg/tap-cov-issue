@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tap test.js --no-coverage --node-arg -r --node-arg ./init.js",
-    "snap": "npm run test -- --snapshot",
-    "coverage": "tap test.js --coverage --node-arg -r --node-arg ./init.js"
+    "test-fast": "./test.sh base",
+    "test-slow": "./test.sh specy"
   },
   "devDependencies": {
-    "pretty-format": "24.8.0",
-    "tap": "14.2.3"
+    "tap": "14.2.5"
   }
 }
